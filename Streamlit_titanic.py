@@ -17,7 +17,7 @@ st.sidebar.title('Menú')
 page = st.sidebar.selectbox('Selecciona una página:', ['Inicio', 'Sobre el Titanic', 'Descripción de la muestra', 'Procedimiento de análisis', 'Análisis descriptivo', 'Análisis causal', 'Conclusiones'])
 
 
-df = pd.read_csv(https://github.com/luciasanchezsouto/Titanic/blob/49132077710370ec35ab941c409fb9c3947a9863/titanic.csv)
+df = pd.read_csv("https://github.com/luciasanchezsouto/Titanic/blob/49132077710370ec35ab941c409fb9c3947a9863/titanic.csv")
 
 # Ejecutar código basado en la página seleccionada
 if page == 'Inicio':
