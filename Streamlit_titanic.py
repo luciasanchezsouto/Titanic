@@ -33,7 +33,7 @@ if page == 'Inicio':
 
 elif page == 'Sobre el Titanic':
     st.title("Sobre el Titanic")
-    st.write("El Titanic fue el mayor barco transatlántico en cuanto a capacidad de pasajeros en el momento de finalización de su construcción (3000 personas). En su viaje inaugural de Southampton a Nueva York, 2223 personas que viajaban a bordo vieron cómo este, en la noche del 14 de abril de 1992 se hundía tras un choque con un iceberg y morían 1514 de estas personas.")
+    st.write("El Titanic fue el mayor barco transatlántico en cuanto a capacidad de pasajeros en el momento de finalización de su construcción (3000 personas). En su viaje inaugural de Southampton a Nueva York, 2223 personas que viajaban a bordo vieron cómo este, en la noche del 14 de abril de 1912, se hundía tras un choque con un iceberg y morían 1514 de estas personas.")
     st.write("A pesar de la gran capacidad del barco, solo contaba con 20 botes salvavidas, siendo la capacidad total 1178 (muy por debajo de los 2223 que viajaban y por supuesto por debajo de las 3000 plazas ofertadas). Tampoco había suficientes chalecos salvavidas, siendo muchos de mala calidad. Esto provocó la fatídica muerte de más de un 75% de los viajeros por ahogamiento o hipotermia.")
     # Calcula el ancho de las columnas laterales para centrar la imagen principal
     col1, col2, col3 = st.columns([1,6,1])
@@ -248,5 +248,5 @@ elif page == 'Conclusiones':
     st.write("--> La mayoría de los pasajeros eran hombres, pero aun así sobrevivieron más mujeres en términos porcentuales.")
     st.write("--> La mayoría de los pasajeros eran de tercera clase, pero sobrevivieron más pasajeros de primera clase en términos porcentuales.")
     st.write("--> Ser mujer o niño, así como ir en primera clase, ha favorecido la supervivencia de los pasajeros del Titanic.")
-    st.write("--> La ponderación de subclasificación ha permitido controlar los factores observables de edad y sexo, obteniendo una estimación menos sesgada del ATE; es decir, la probabilidad de sobrevivir yendo en primera clase y controlando por sexo y edad es más fiable, y aun así alta (28,75%).")
+    st.write("--> La ponderación de subclasificación ha permitido controlar los factores observables de edad y sexo, obteniendo una estimación menos sesgada del ATE; es decir, la probabilidad de sobrevivir yendo en primera clase y controlando por sexo y edad es más fiable, y aun así alta (25,82%).")
     st.write("--> Estos resultados son consistentes con la historia del Titanic, donde las mujeres y los niños tenían prioridad para subir a los botes salvavidas, y los pasajeros de primera clase tenían asignadas cabinas con todo tipo de lujos.")
