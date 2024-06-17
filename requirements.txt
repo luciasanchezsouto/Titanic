@@ -4,5 +4,6 @@ pandas
 seaborn
 plotly.express
 matplotlib.pyplot
+matplotlib-pyplot
 scipy.stats
 plotly.graph_objects
