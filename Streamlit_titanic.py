@@ -10,14 +10,14 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="El desastre del Titanic", page_icon="🚢",layout="wide")
 @st.cache_resource #decorador para cachear los datos
 def cargar_datos(): #función para cargar los datos
-    return pd.read_csv("https://github.com/luciasanchezsouto/Titanic/blob/ddc6705ff933df9888bc8b61f406d1da0302c94b/titanic.csv")
+    return pd.read_csv("https://github.com/luciasanchezsouto/Titanic/blob/24d33b6e5597431b48380e907669ff6bf813a147/titanic.csv")
 
 # Barra lateral con opciones
 st.sidebar.title('Menú')
 page = st.sidebar.selectbox('Selecciona una página:', ['Inicio', 'Sobre el Titanic', 'Descripción de la muestra', 'Procedimiento de análisis', 'Análisis descriptivo', 'Análisis causal', 'Conclusiones'])
 
 
-df = pd.read_csv("https://github.com/luciasanchezsouto/Titanic/blob/ddc6705ff933df9888bc8b61f406d1da0302c94b/titanic.csv")
+df = pd.read_csv("https://github.com/luciasanchezsouto/Titanic/blob/24d33b6e5597431b48380e907669ff6bf813a147/titanic.csv")
 
 # Ejecutar código basado en la página seleccionada
 if page == 'Inicio':
