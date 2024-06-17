@@ -1,8 +1,8 @@
-import streamlit as st
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import plotly.express as px
-import matplotlib.pyplot as plt
-import scipy.stats as stats
-import plotly.graph_objects as go
+streamlit
+numpy
+pandas
+seaborn
+plotly.express
+matplotlib.pyplot
+scipy.stats
+plotly.graph_objects
