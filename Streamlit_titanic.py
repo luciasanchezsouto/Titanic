@@ -181,6 +181,7 @@ elif page == 'Análisis descriptivo':
     st.pyplot(fig)
     
     #Correlación entre vaiables
+    st.write("-->Correlación entre variables (Spearman)")
     image_path = 'heatmap.spearman.png'
     st.image(image_path)
     
