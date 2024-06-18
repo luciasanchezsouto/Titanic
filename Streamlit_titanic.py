@@ -84,7 +84,7 @@ elif page == 'Procedimiento de análisis':
     st.write(f"La mediana de la edad es: {mediana_edad}.")
     
     #Distribución embarked
-    image_path = r'C:\Users\lucia\Desktop\UPGRADE_works\Entrega_1\graf_embarked.png'
+    image_path = 'graf_embarked.png'
     st.image(image_path)
     st.write("Sustituimos los NaN por 'Sin datos de embarque'.")
     
