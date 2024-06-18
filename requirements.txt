@@ -4,5 +4,4 @@ pandas
 seaborn
 plotly.express
 matplotlib
-scipy.stats
 plotly.graph_objects
