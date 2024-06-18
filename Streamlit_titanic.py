@@ -201,7 +201,7 @@ elif page == 'Análisis causal':
     mean_survival_non_first_class = 100 * df[df['FirstClass'] == 0]['Survived'].mean()
     st.write(f'Mean Survival in First Class: {mean_survival_first_class:.2f}%')
     st.write(f'Mean Survival in Non-First Class: {mean_survival_non_first_class:.2f}%')
-    st.write("La diferencia simple en los resultados (SDO) es de 40.13%.")
+    st.write("La diferencia simple en los resultados (SDO) es de 38.72%.")
     #Ponderación de subclasificación
     st.write ("Sin embargo, dado que este resultado no tiene en cuenta los factores observables de edad y sexo, se trata de una estimación sesgada de la ATE. Por tanto, a continuación utilizaremos la ponderación de subclasificación para controlar estos factores.")
     df['AgeGroup'] = np.where(df['Age'] >= 27, 'old', 'young')
