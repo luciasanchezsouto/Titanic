@@ -181,18 +181,8 @@ elif page == 'Análisis descriptivo':
     st.pyplot(fig)
     
     #Correlación entre vaiables
-    st.write("-->Correlación entre variables:")
-    def main():
-        st.title('Heatmap de Correlación')
-
-    # Matriz de correlación
-        corr_matrix = df.corr(method= 'spearman')
-    # Gráfico
-        fig, ax = plt.subplots(figsize=(10, 8)) 
-        sns.heatmap(corr_matrix, cmap='coolwarm', annot=True, ax=ax)
-        st.pyplot(fig)
-    if __name__ == "__main__":
-        main()
+    image_path = 'heatmap.spearman.png'
+    st.image(image_path)
     
     
     
