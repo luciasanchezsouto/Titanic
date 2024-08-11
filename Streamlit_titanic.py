@@ -6,7 +6,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import plotly.graph_objects as go
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 st.set_page_config(page_title="El desastre del Titanic", page_icon="🚢",layout="wide")
 @st.cache_resource #decorador para cachear los datos
 def cargar_datos(): #función para cargar los datos
